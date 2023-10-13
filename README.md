@@ -1,6 +1,3 @@
-Tabii, işte ZakatChain projesi için önerdiğim `README.md`:
-
----
 
 # ZakatChain
 
