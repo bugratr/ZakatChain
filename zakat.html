@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZakatChain Donation Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2>Welcome to ZakatChain!</h2>
+    <p>
+        ZakatChain leverages the power of the HAQQ network to make zakat donations digital, transparent, and efficient. Make your donation and witness the seamless process enabled by blockchain technology.
+    </p>
+
+    <div class="mt-4">
+        <label for="amount">Enter Donation Amount (in HAQQ):</label>
+        <input type="number" class="form-control" id="amount" placeholder="Donation Amount" name="amount" step="0.01" min="0.01">
+    </div>
+
+    <button class="btn btn-primary mt-3" onclick="donate()">Donate</button>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="web3.min.js"></script>
+<script src="zakat.js"></script>
+</body>
+</html>
