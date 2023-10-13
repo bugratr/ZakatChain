@@ -1,4 +1,3 @@
-
 # ZakatChain
 
 ZakatChain is an innovative platform designed to digitize the zakat giving process using the HAQQ network, an EVM-compatible blockchain. With ZakatChain, users can seamlessly register to request zakat, and donors can contribute with full transparency.
